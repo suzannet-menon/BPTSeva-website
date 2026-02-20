@@ -1,0 +1,235 @@
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #000000;
+    padding: 15px;
+    display: flex;
+    align-items: center;   
+    z-index: 1000;
+    gap: 15px; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+nav .logo {
+    height: 50px;         
+    width: 50px;         
+    border-radius: 50%;    
+    object-fit: cover; 
+    margin-right: auto; 
+    }    
+nav a:hover {
+    color: rgb(4, 183, 28);
+}
+
+section {
+    min-height: 100vh;       
+    padding: 60px 40px 40px 40px; 
+    box-sizing: border-box;
+}
+
+#Home {
+    background-image: url("Images/bg-1.png");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;           
+    min-height: 100vh;           
+    padding: 60px 40px;            
+    box-sizing: border-box;
+}
+
+.home-text {
+    max-width: 1000px;
+}
+
+#Home h1 {
+    font-size: 40px;
+    font-family: Algerian;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#Home h2 {
+    font-size: 30px;
+    font-family: Eras Demi Bold ITC;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Mission & Motto text */
+#Home ul, #Home pre {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#About {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Headings inside About */
+#About h1 {
+    font-family: Algerian;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraphs */
+#About p {
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.team-member {
+    width: 245px;
+    border: 1px solid green;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 12px; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    background-color: white;              
+}
+
+.team-member img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto 20px auto; 
+    display: block;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.team-member p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.team-member a {
+    text-decoration: none;
+    color: blue;
+    font-family: Calibri;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
+/* MESSAGE US SECTION */
+#Messageus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+/* FORM BOX */
+#contactForm {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* INPUT FIELDS */
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Calibri;
+    box-sizing: border-box;
+}
+
+/* TEXTAREA HEIGHT */
+#contactForm textarea {
+    height: 130px;
+    resize: none;
+}
+
+/* BUTTON */
+#contactForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a5f2c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #084a22;
+}
+
+/* SUCCESS MESSAGE */
+#successMsg {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    background-color: #0a5f2c;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline; /* optional */
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    fill: white;
+}
