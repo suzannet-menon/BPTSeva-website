@@ -77,7 +77,6 @@ section {
     text-align: center;
 }
 
-/* Mission & Motto text */
 #Home ul, #Home pre {
     font-size: 20px;
     line-height: 1.6;
@@ -89,7 +88,6 @@ section {
     padding-top: 100px;
 }
 
-/* Headings inside About */
 #About h1 {
     font-family: Algerian;
     font-size: 36px;
@@ -97,7 +95,6 @@ section {
     text-align: center;
 }
 
-/* Paragraphs */
 #About p {
     font-family: Calibri;
     font-size: 18px;
@@ -158,7 +155,6 @@ section {
     box-sizing: border-box;
 }
 
-/* FORM BOX */
 #contactForm {
     width: 500px;
     background-color: #ffffff;
@@ -167,7 +163,6 @@ section {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* INPUT FIELDS */
 #contactForm input,
 #contactForm textarea {
     width: 100%;
@@ -180,13 +175,11 @@ section {
     box-sizing: border-box;
 }
 
-/* TEXTAREA HEIGHT */
 #contactForm textarea {
     height: 130px;
     resize: none;
 }
 
-/* BUTTON */
 #contactForm button {
     width: 100%;
     padding: 12px;
@@ -203,7 +196,6 @@ section {
     background-color: #084a22;
 }
 
-/* SUCCESS MESSAGE */
 #successMsg {
     text-align: center;
     margin-top: 15px;
@@ -232,4 +224,5 @@ footer a:hover {
     height: 15px;
     margin-right: 8px;
     fill: white;
+
 }
