@@ -17,5 +17,4 @@ bptseva website/
 ├── index.html # Main HTML page
 ├── style-2.css # CSS styling
 ├── script.js # JavaScript for contact form & interactivity
-├── Images/ # Folder containing logos, photos, and icons
 └── README.md # Project information
