@@ -2,6 +2,10 @@ BPTSeva Website
 
 BPTSeva (Baner Pashan Tekdi Seva) is a community-driven initiative in Pune dedicated to cleaning and preserving the city environment. This website provides information about our mission, team, and ways to get involved, including a contact form for messages.
 
+Live Site
+https://suzannet-menon.github.io/BPTSeva-website/
+
+> ##Note: Team member photos are currently private and will be added upon official deployment of the website.
 Features
 
 - **Home Section:** Overview of mission and motto.
