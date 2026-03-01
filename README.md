@@ -6,8 +6,8 @@ Live Site
 https://suzannet-menon.github.io/BPTSeva-website/
 
 > ##Note: Team member photos are currently private and will be added upon official deployment of the website.
-Features
 
+Features
 - **Home Section:** Overview of mission and motto.
 - **About Section:** Team introduction with individual member cards.
 - **Contact Section:** "Message Us" form storing submissions locally.
