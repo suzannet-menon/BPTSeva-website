@@ -2,26 +2,42 @@
 <html>
 <head>
     <title> BPTSeva </title>
+<meta name="description" content="BPTSeva - Baner Pashan Tekdi Seva. Community cleanup drives and tree plantation initiatives in Pune, Maharashtra.">
+<link rel="icon" type="image/png" href="Images/logo-final.png">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-2.css">
 </head>
 <body>
       <nav>
-        <img src = "Images/logo-final.png" alt = "BPTSeva logo" class="logo">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT US</a>
-        <a href="messageus.html">MESSAGE US</a>
-        <a href="blog.html">ARTICLES</a>
-    </nav>
+    <div class="nav-left">
+        <img src="Images/logo-final.png" alt="BPTSeva logo" class="logo">
+        <span class="org-name">Baner Pashan Tekdi Seva</span>
+    </div>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="messageus.html">MESSAGE US</a>
+    <a href="blog.html">ARTICLES</a>
+</nav>
     
-    <section id = "Messageus">
-        <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Submit</button>
-   </form>
-   <p id="successMsg"></p>
-</section>
+    <section id="Messageus">
+        <div id="contactForm">   
+    <h2 style="font-family: Calibri; font-size: 22px; font-weight: bold; 
+    margin-top: 0; margin-bottom: 8px; text-align: left;">
+    Send us a Message
+</h2>
+<p style="font-family: Calibri; font-size: 16px; 
+    margin-top: 0; margin-bottom: 25px; text-align: left; color: #444;">
+    We are open to volunteer registrations, collaborations and any queries you may have
+</p>
+            <form id="messageForm">   <!-- form handles submission separately -->
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="successMsg"></p>   
+        </div>
+    </section>
 
 <footer>
     <div class="footer-container">
@@ -42,6 +58,9 @@
      <div class="footer-right">
       <h2> SUPPORT US </h2>
       <img src="Images/qr-dummy.png" alt="Donate via GPay" class="donation-img">
+      <br>
+    <h2>Want to collaborate with us? <a href="Images/Onepagerfinal.png" download class="download-btn-inline">Download our flyer</a>
+    </h2>
     </div>
   </div>
       <hr> 
