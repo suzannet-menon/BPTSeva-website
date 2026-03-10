@@ -19,28 +19,44 @@ nav {
     width: 100%;
     background-color: white;
     border-bottom: 2px solid #000000;
-    padding: 15px;
+    padding: 15px 25px;
     display: flex;
-    align-items: center;   
+    align-items: center;
     z-index: 1000;
-    gap: 15px; 
+    box-sizing: border-box;
+    gap: 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: auto;    /* pushes ALL links to the right as a group */
+}
+
+nav .logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.org-name {
+    font-family:Georgia;
+    font-size: 25px;
+    color: #0a5f2c;
+    white-space: nowrap;
 }
 
 nav a {
     color: black;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 12px;
     font-size: 18px;
     font-family: Calibri;
+    white-space: nowrap;
 }
 
-nav .logo {
-    height: 50px;         
-    width: 50px;         
-    border-radius: 50%;    
-    object-fit: cover; 
-    margin-right: auto; 
-    }    
 nav a:hover {
     color: rgb(4, 183, 28);
 }
@@ -94,7 +110,7 @@ section {
 
 #Home h2 {
     font-size: 30px;
-    font-family: Eras Demi Bold ITC;
+    font-family: "Eras Demi Bold ITC";
     margin-bottom: 30px;
     text-align: center;
 }
@@ -104,6 +120,79 @@ section {
     font-size: 20px;
     line-height: 1.6;
     text-align: left;
+}
+
+/* INITIATIVES SECTION */
+#Initiatives {
+    background-color: rgba(0, 128, 0, 0.509);
+    box-sizing: border-box;
+    padding: 70px 40px 80px 40px;
+    text-align: center;
+}
+
+.inicard video {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#Initiatives h1 {
+    font-family: Algerian;
+    font-size: 40px;
+    color: #084a22;
+    margin-bottom: 60px;
+}
+
+.inigrid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;  
+}
+
+.inicard {
+    width: 250px;
+    background-color: #f5faf7;
+    border: 4px solid #19a350;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.inicard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 35px rgba(0,0,0,0.2);
+}
+
+.inicard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.inicard h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 18px;
+    color: #0a5f2c;
+    margin-bottom: 10px;
+}
+
+.inicard p {
+    font-family: Calibri;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
 }
 
 #About {
@@ -206,7 +295,7 @@ section {
 
 /* FORM BOX */
 #contactForm {
-    width: 500px;
+    width: 600px;
     background-color: #ffffff;
     padding: 40px;
     border-radius: 12px;
@@ -280,6 +369,7 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     max-width: 1300px;
+    margin-bottom: 60px;    /* ADD THIS - pushes footer down */
     margin: 0 auto;
 }
 
@@ -340,6 +430,19 @@ section {
     text-decoration: none;
 }
 
+.download-btn-inline {
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;  /* removed display: block */
+}
+
+.download-btn-inline:hover {
+    opacity: 0.7;
+}
+
 footer {
     background-color: #19a350;
     color: white;
@@ -379,31 +482,6 @@ footer a:hover {
     width: 33px;  
     height: 33px;
     margin-right: 15px; 
-}
-
-.footer-right {
-    flex: 1;
-    min-width: 200px;
-    text-align: center;
-}
-
-.donation-img {
-    width: 200px; 
-    height: auto;
-    margin-top: 10px;
-}
-
-.copyright{
-text-align: center;
-font-size: 14px; 
-margin-bottom: 1px;
-}
-
-.icon{
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-    fill: white;
 }
 
 .footer-right {
